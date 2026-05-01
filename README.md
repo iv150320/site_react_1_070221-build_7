@@ -16,11 +16,11 @@ This repository contains the static, minified files representing the production 
 
 ```mermaid
 graph TD
-    User[👤 User] --> WebServer[🌐 Static Web Server / CDN]
-    WebServer --> HTML[📄 index.html]
-    HTML --> Bundles[📦 JS/CSS Chunks]
-    Bundles --> React[⚛️ React Runtime]
-    React --> DOM[🖼️ Browser DOM]
+    User["👤 User"] --> WebServer["🌐 Static Web Server / CDN"]
+    WebServer --> HTML["📄 index.html"]
+    HTML --> Bundles["📦 JS/CSS Chunks"]
+    Bundles --> React["⚛️ React Runtime"]
+    React --> DOM["🖼️ Browser DOM"]
 
     classDef main fill:#f9f,stroke:#333,stroke-width:2px;
     class User,WebServer main;
